@@ -12,7 +12,26 @@ export class User {
         public job:string,
         public topic: string,
         public date:string,
-        public comment:string
+        public comment:string,
+        public courses={
+            HTML:false,
+            CSS:false,
+            JavaScript:false,
+            Nodejs:false,
+            MongoDB:false,
+            Angular:false,
+            React:false,
+            Vue:false,
+            Python:false,
+            FrontEndDevelopment:false,
+            BackEndDevelopment:false,
+            Devops:false,
+            PHP:false,
+            WordPress:false,
+            WebSecurity:false,
+
+        }
+
         
        
     ) {}
